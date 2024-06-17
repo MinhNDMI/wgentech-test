@@ -1,0 +1,89 @@
+body {
+  display: block;
+  margin: 0;
+  font-family: Montserrat;
+}
+.header{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-height: 682px;
+  background-color: #FFF2F3 ;
+  
+}
+.content{
+  height: 386px;
+  margin: 20% 0 20% 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.img-header{
+  background-image: url('./imgs/img-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button{
+  display: flex;
+  gap: 16px;
+}
+button{
+  padding: 16px 40px;
+  border: 1px solid #96BB7C;
+  border-radius: 5px;
+}
+p{
+  margin: 0;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 10%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 241px;
+  height: 375px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 231px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card p {
+  color: #737373;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.card .social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.card .social-icons a {
+  color: #96BB7C;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  text-decoration: none;
+}
